@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.floating-box {
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #4BAFAD;
+  width: 55%;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px grey;
+}
+
+h3{
+  padding: 2px;
+  width: 100%;
+  border-bottom: 2px solid gray;
+}
+
+
+
+/* .box-ul{
+  
+} */
+
+.box-items {
+  list-style: none;
+  color: white;
+  text-align: left;
+  padding: 5px;
+}
+
+
+input {
+  outline: none;
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 30px;
+}
+
+
+button{
+  float: right;
+  background: #058C92;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+
+@keyframes zoom{
+  from{transform: scale(0)}
+  to{transform: scale(1)}
+}
